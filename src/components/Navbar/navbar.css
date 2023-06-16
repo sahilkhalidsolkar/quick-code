@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgb(13, 12, 36);
+    padding: 1rem;
+}
+.navbar_text{
+    
+    display: flex;
+    width:30rem;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar_word{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width:45%;
+}
+
+  @media only screen and (width<600px){
+.navbar_text{
+    width:90%;
+}
+  }

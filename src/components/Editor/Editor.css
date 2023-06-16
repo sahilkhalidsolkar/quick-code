@@ -1,0 +1,58 @@
+.editor_inner{
+    width:30%
+
+}
+.editor_heading{
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    padding-left: 1.7rem;
+    letter-spacing: .3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editor_headingButton{
+    border:none;
+    position:relative;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.486);
+    cursor:pointer
+}
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 110px;
+    /* width: fit-content; */
+    color: white;
+    transition: visibility .5s;
+    font-size: 12px;
+    background-color: #7224a7;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  #bottom {
+    top: 28px;
+    right: 100%;
+  }
+  
+  .editor_headingButton:hover .tooltip-text {
+    visibility: visible;
+    
+
+  }
+@media screen and (max-width:600px) {
+    .editor_inner{
+        width:90%
+    }
+  }
